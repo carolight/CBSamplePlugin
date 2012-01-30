@@ -1,0 +1,17 @@
+**Sample code for a Gideros Studio iPhone plugin **
+
+License at the end of main.lua and CBSamplePlugin.mm
+If you see any mistakes, misconceptions or possible enhancements, please let
+Caroline know on the Gideros Forum
+
+This is not a useful plugin example - it is just for sample reference code.
+There is no UIKit functionality.
+
+To set up the plugin:
+
+1. 	Add CBSamplePlugin.mm in Xcode to the GiderosiPhonePlayer project.
+2. 	Connect the iPhone and build and run the GiderosiPhonePlayer app on the iPhone
+3. 	Load the CBSamplePlugin project into Gideros Studio
+4.	In Gideros Studio, under Player Menu > Player Settings, untick Localhost, and enter the IP address on your iPhone (wireless connection is needed)
+5.	Run the program in Gideros Studio.
+6.	You should have both the debug console open in Xcode, and the Output console in Gideros Studio. Messages from the plugin will be printed in the Xcode console, and messages from Lua will be printed in the Gideros Studio console
